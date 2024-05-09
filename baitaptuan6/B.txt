@@ -1,0 +1,61 @@
+1.
+bool majority(bool a, bool b,bool c)
+{
+    return (a||b) && (b||c) &&(a||c);
+}
+2.
+ bool eq(int a[],int b[],n)
+ {
+    int sizea =sizeof(a)/sizeof(a[0]);
+    int sizeb = sizeof(b)/sizeof(b[0]);
+    if (n>sizea||n>sizeb)
+    {
+        return false;
+    }
+    int count = 0;
+    for (int i =0;i<sizea;i++)
+    {
+        for (int j = 0;j<sizeb;j++)
+        {
+            if (a[i]==b[i])
+            {
+                count++;
+            }
+        }
+    }
+    if (count==n)
+    {
+        return true;
+    }
+    return false;
+ } 
+ 3.1000 lần
+ 4.1717
+ 5.
+ int min(int a, int b, int c, int d) {
+   if (a < b && a < c && a < d) return a;
+   if (b < c && b < d)          return b;
+   if (c < d)                   return c;
+   return d;
+}
+6.f(int, double)
+7.D;
+8.A;
+9.D;
+10.B;
+11.C;
+12.B;
+13.D;
+14.D;
+15.B;
+16.B;
+17.A;
+18.A.
+19.B;
+20.B;
+21.B;
+22.C;
+23.C;
+24.A;
+25.C.
+26.D.

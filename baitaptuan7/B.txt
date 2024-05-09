@@ -1,0 +1,9 @@
+1.
+*p3 = B, p3 = 0x5678
+*p3 = A, p3 = 0x1234
+*p1 = B, p1 = 0x1234
+2.*p = 5;
+3.
+lỗi này xảy ra do kiểu dữ liệu của con trỏ p và kiểu dữ liệu của biến c không khớp nhau
+biến c được khai báo là một biến kiểu char, tức là nó lưu trữ một ký tự
+con trỏ p được khai báo là một con trỏ kiểu double, tức là nó trỏ tới một biến kiểu double không phải kiểu char

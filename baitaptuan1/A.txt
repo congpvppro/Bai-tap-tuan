@@ -1,0 +1,17 @@
+1. Nó sẽ gán giá trị true cho biến isA;
+2. In ra 0;
+3. Tại vì x sẽ bị quá giới hạn kiểu biến int;
+4. False;
+5. chương trình sẽ gặp lỗi;
+6. int a sẽ lỗi và trong trường hợp double x, x sẽ có giá trị ngẫu nhiên;
+nếu ở ngoài hàm main sẽ gán x = 0;
+7. 0;
+0.75;
+0.75;
+0;
+8.Nó sẽ báo arg ko phải class và bị lỗi;
+9.Biến char;
+10.Biến int;
+11. (5/9) sẽ trả về 0, sai thuật toán;
+12.Ko in ra gì cả;
+
